@@ -4,9 +4,9 @@
 	<a  href="#" class="btn">Nav</a>
 	<ul id="menu" class="menu collapsed">
 		<li class="menu__item"><a href="#">Item 1</a>
-			<ul class="drop-menu--sub collapsed">
+			<ul class="menu--sub collapsed">
 				<li class="menu__item menu__item--sub"><a href="#">	Sub-item 1
-					<ul class="drop-menu--sub collapsed">
+					<ul class="menu--sub collapsed">
 						<li class="menu__item menu__item--sub"><a href="#">	Sub-item 1</a></li>
 					</ul>
 				</a></li>
@@ -17,7 +17,7 @@
 			</ul>
 		</li>
 		<li class="menu__item"><a href="#">Item 2</a>
-			<ul class="drop-menu--sub collapsed">
+			<ul class="menu--sub collapsed">
 				<li class="menu__item menu__item--sub"><a href="#">	Sub-item 1</a></li>
 			</ul>
 		</li>

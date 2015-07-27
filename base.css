@@ -436,5 +436,8 @@ ul {
 }
 
 body {
+	line-height: 1.5;
+  color: #fff;
+	font-family: 'Open Sans', sans-serif;
 	padding: 5em;
 }

@@ -6,9 +6,20 @@ a,
 a:link {
 	color: #313131;
 	text-decoration: none;
+	display: inline-block;
+	width: 100%;
+	padding: 10px;
+	transition: background-color .2s ease;
+}
+
+a:hover,
+a:focus {
+	background-color: #0074e4;
+	color: #fff;
 }
 
 .btn {
+	text-align: center;
 	display: block;
 	text-decoration: none;
 	color: #fff;
@@ -18,23 +29,14 @@ a:link {
 
 .menu__item {
 	position: relative;
-	background-color: pink;
-	padding: 10px;
 	list-style: none;
 }
 
-.drop-menu--sub{
+.menu--sub{
 	top: 0;
 	left: 150px;
 	position: absolute;
 	width: 100%;
-}
-
-.drop-menu__item--sub {
-	background-color: grey;
-	padding: 10px;
-	list-style: none;
-	list-style: none;
 }
 
 .collapsed {
